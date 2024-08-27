@@ -66,7 +66,7 @@ public class PlayerContloller : MonoBehaviour
         this.animator.speed = speedx/1.0f;
         if(transform.position.y<-10||transform.position.x<-6||transform.position.x>6)
         {
-            SceneManager.LoadScene("GameScenes");
+            SceneManager.LoadScene("GameOverScene");
         }
         else if(transform.position.y>17)
         {
